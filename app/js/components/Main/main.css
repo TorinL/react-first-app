@@ -1,0 +1,25 @@
+.background {
+	background: url(http://i.imgur.com/jXvSJzS.jpg) no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.divider {
+	width: 90%;
+	height: 3px;
+	background: #F87431;
+	margin: 20px auto;
+}
+
+@media screen and (max-width: 720px) {
+	.header {
+		flex-flow: column nowrap;
+	}
+}

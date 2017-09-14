@@ -1,0 +1,20 @@
+.active {
+	background: #eee;
+}
+
+.nav {
+	width: 100%;
+	background: lightblue;
+	line-height: 50px;
+	display: flex;
+}
+
+.nav > a {
+	font-size: 1.5em;
+}
+
+.nav ul {
+	margin-left: auto;
+	font-size: 1.5em;
+}
+
