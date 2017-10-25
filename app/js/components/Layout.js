@@ -15,12 +15,12 @@ export default class Layout extends React.Component {
 			margin: '20px'
 		}
 		return (
-			<div>	
+			<div>
 
 				<Header />
 
 				{this.props.children}
-			
+
 				<Footer />
 
 			</div>
